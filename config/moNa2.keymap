@@ -114,7 +114,7 @@
         cmd_eikana: cmd_eikana {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-unless-interrupted";
             tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
