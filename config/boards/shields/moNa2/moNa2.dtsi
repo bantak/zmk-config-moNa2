@@ -48,3 +48,12 @@
         triggers-per-rotation = <10>;
     };
 };
+
+&spi0 {
+    status = "disabled";
+
+    trackball: trackball@0 {
+        status = "disabled";
+        reg = <0>;
+    };
+};
